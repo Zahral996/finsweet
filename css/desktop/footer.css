@@ -1,0 +1,93 @@
+footer{
+    width: 100%;
+    background-color: var(--bg-tintblue);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: poppins;
+    padding-top: 100px;
+    .content{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: start;
+        .finsweet{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            .logo{
+                width: 60%;
+                p{
+                    font-size: 12px;
+                    opacity: 0.8;
+                    padding-top: 15px;
+                }
+            }
+            .contact{
+                width: 80%;
+                display: flex;
+                flex-direction: row;
+                justify-content: start;
+                column-gap: 20px;
+                background-color: var(--primaryyellow);
+                color: black;
+                margin-top: 50px;
+                padding: 20px;
+                p{
+                    font-size: 12px;
+                }
+            }
+        }
+        .talk{
+            width: 30%;
+            h2{
+                text-transform: capitalize;
+                font-size: 30px;
+                font-weight: bold;
+            }
+            p{
+                font-size: 12px;
+                opacity: 0.8;
+                padding-top: 15px;
+            }
+            .social{
+                display: flex;
+                flex-direction: row;
+                column-gap: 15px;
+                padding-top: 15px;
+                a{
+                    color: white;
+                }
+            } 
+        }
+    }
+    .contact-mobile{
+        display: none;
+    }
+    .footerlinks{
+        width: 100%;
+        padding: 15px 10%;
+        margin: 0 auto;
+        background-color: white;
+        color: black;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        p{
+            font-size: 12px;
+        }
+        .links{
+            display: flex;
+            flex-direction: row;
+            column-gap: 15px;
+            a{
+                font-size: 12px;
+                text-decoration: none;
+                color: black;
+                font-weight: 500;
+            }
+        }
+    }
+}

@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: manrope;
+    src: url(../fonts/Manrope-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: poppins;
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+*{
+    font-family: poppins;
+}
+
+:root{
+    --bg-tintblue: #1c1e53;
+    --textgray: #BBBBCB;
+    --primaryyellow: #FCD980;
+    --bg-gray: #F4F6FC;
+    --royalblue: #2405F2;
+    --color-border: #dae1f5;
+    --bg-lightgray: #FAFBFE;
+    --bg-lightblue: #eef4fa;
+    /* Transition */
+    --transition: 0.4s ease-in-out; 
+}
+
+
+.active{
+    color: white !important; 
+}
+
+.btn{
+    border: none;
+    background-color: var(--primaryyellow);
+    border-radius: 40px;
+    padding: 10px 30px;
+    text-transform: capitalize;
+    &:hover{
+        background-color: #fcd980da;
+        cursor: pointer;
+    }
+
+    a{
+        text-decoration: none;
+        font-family: manrope;
+        color: var(--bg-tintblue) !important;
+        font-size: 12px;
+        font-weight: 800;
+    }
+}
+
+.arrow, .arrow-mobile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 5px;
+    a{
+        text-decoration: none;
+            font-family: manrope;
+            font-weight: 500;
+    }
+    span{
+        display: flex;
+        align-self: center;
+    }
+}
+
+
+
+

@@ -1,0 +1,42 @@
+.introduction{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #F4F5F5;
+    font-family: poppins;
+    padding-top: 50px;
+    .title{
+        padding-left: 50px;
+        text-transform: capitalize;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .contents{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        column-gap: 20px;
+        padding: 0 50px;
+        .content1 , .content2{
+            width: 50%;
+            h2{
+                font-size: 25px;
+                padding: 10px 0;
+                text-transform: capitalize;
+            }
+            p{
+                font-size: 10px;
+                opacity: 0.8;
+                padding-bottom: 40px;
+            }
+        }
+    }
+    .picture{
+        width: 100%;
+        img{
+            width: 100%;
+        }
+    }
+}

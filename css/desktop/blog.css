@@ -1,0 +1,49 @@
+.blogs{
+    width: 100%;
+    font-family: poppins;
+    padding: 20px 0 60px;
+    .heading{
+        width: 80%;
+        margin: 0 auto;
+        h2{
+            font-size: 25px;
+            font-weight: 600;
+            padding-bottom: 30px;
+            text-transform: capitalize;
+        }
+    }
+    .blogcards{
+        width: 80%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(3,33%);
+        column-gap: 15px;
+        .blogcard{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            row-gap: 15px;
+            padding: 0 5px;
+            img{
+                width: 99%;
+            }
+            .date{
+                font-size: 10px;
+            }
+            h5{
+                font-size: 18px;
+                font-weight: 700;
+            }
+            p{
+                font-size: 12px;
+                opacity: 0.5;
+            }
+            a{
+                font-size: 12px;
+                text-transform: capitalize;
+                font-weight: 600;
+                color: black;
+            }
+        }
+    }
+}

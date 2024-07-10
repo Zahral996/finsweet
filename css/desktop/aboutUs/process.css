@@ -1,0 +1,55 @@
+.process{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0;
+    font-family: poppins;
+    .heading{
+        width: 100%;
+        text-align: center;
+        h2{
+            font-size: 30px;
+            padding: 15px 0;
+        }
+    }
+    .cards{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4,21%);
+        column-gap: 50px;
+        .card{
+            display: flex;
+            flex-direction: column;
+            row-gap: 10px;
+            .icons{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                column-gap: 5px;
+                .icon{
+                    width: 12px;
+                    height: 12px;
+                    background-color: blue;
+                    border-radius: 50%;
+                }
+                span{
+                    color: rgba(0, 0, 255, 0.304);
+                } 
+            }
+            .title{
+                font-size: 12px;
+                text-transform: capitalize;
+                color: black;
+                font-weight: 600;
+            }
+            .text{
+                font-size: 10px;
+                opacity: 0.6;
+            
+            }
+            
+        }
+
+    }
+}

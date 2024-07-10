@@ -1,0 +1,49 @@
+.missions{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column nowrap;
+    row-gap: 50px;
+    font-family: poppins;
+    background-color: var(--bg-lightblue);
+    padding: 30px;
+    .mission, .vision{
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        row-gap: 50px;
+        .content{
+            width: 100%;
+            margin: 0 auto;
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            row-gap: 10px;
+            .title{
+                font-size: 12px;
+                font-weight: 600;
+                text-transform: capitalize;
+            }
+            h2{
+                font-size: 20px;
+                text-transform: capitalize;
+            }
+            .text{
+                font-size: 10px;
+                opacity: 0.6;
+            } 
+        }
+        .pic{
+            width:100%;
+            margin: 0 auto;
+            display: flex;
+            justify-content:end;
+            img{
+                width: 100%;
+            }
+        }
+        .pic2{
+            display: none;
+        }
+    }
+}
